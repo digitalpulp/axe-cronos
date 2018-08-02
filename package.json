@@ -1,0 +1,20 @@
+{
+  "name": "cronos",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axe-core": "^3.0.3",
+    "axe-webdriverjs": "^2.0.1",
+    "axios": "^0.18.0",
+    "fs": "0.0.1-security",
+    "grunt": "^1.0.3",
+    "phantom": "^6.0.3",
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "system": "^2.0.1",
+    "webpage": "^0.3.0"
+  },
+  "scripts": {
+    "start": "/Users/jtrobman/Sites/www/dp/internal/dp-cronos/node_modules/.bin/phantomjs server.js http://www.virginia.edu/",
+    "build": "grunt"
+  }
+}
