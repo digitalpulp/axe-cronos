@@ -1,5 +1,5 @@
 {
-  "name": "@digitalpulp/cronos",
+  "name": "@digitalpulp/axe-cronos",
   "version": "0.1.0",
   "dependencies": {
     "axe-core": "^3.0.3",
@@ -11,14 +11,14 @@
   "scripts": {
     "start": "node server.js"
   },
-  "description": "Run a list of URLs through the Axe API using selenium webdriver.",
+  "description": "Validate URLs through the Axe API using selenium webdriver.",
   "main": "server.js",
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/digitalpulp/dp-cronos.git"
+    "url": "git@github.com:digitalpulp/axe-cronos.git"
   },
   "author": "Digital Pulp",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/digitalpulp/dp-cronos#readme"
+  "homepage": "https://github.com/digitalpulp/axe-cronos"
 }
