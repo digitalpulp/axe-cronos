@@ -1,6 +1,6 @@
 {
   "name": "@digitalpulp/axe-cronos",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "dependencies": {
     "axe-core": "^3.0.3",
     "axe-webdriverjs": "^2.0.1",
