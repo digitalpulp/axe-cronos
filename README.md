@@ -1,9 +1,15 @@
 # Cronos - Saving you time, time after time.
 
-## How to run me
-1. `npm install`
-1. Modify `urls.json` to your liking
-1. `npm start`
+## Example implementation
+```
+let AxeCronos = require('@digitalpulp/axe-cronos').AxeCronos
+
+var cronos = new AxeCronos();
+cronos.urlFileName = 'urls.json'
+cronos.resultsDir = 'axecronos-results'
+cronos.axeTags = ['wcag2a', 'wcag2aa', 'section508', 'best-practice']
+cronos.start()
+```
 
 ## References
 * https://github.com/dequelabs/axe-webdriverjs#readme
