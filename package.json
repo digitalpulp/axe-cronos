@@ -16,9 +16,12 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git@github.com:digitalpulp/axe-cronos.git"
+    "url": "git+ssh://git@github.com/digitalpulp/axe-cronos.git"
   },
   "author": "Digital Pulp",
   "license": "ISC",
-  "homepage": "https://github.com/digitalpulp/axe-cronos"
+  "homepage": "https://github.com/digitalpulp/axe-cronos",
+  "bugs": {
+    "url": "https://github.com/digitalpulp/axe-cronos/issues"
+  }
 }
